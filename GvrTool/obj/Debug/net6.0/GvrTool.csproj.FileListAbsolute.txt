@@ -1,0 +1,15 @@
+C:\Users\heito\Desktop\Nova pasta\GvrTool\GvrTool\bin\Debug\net6.0\GvrTool.exe
+C:\Users\heito\Desktop\Nova pasta\GvrTool\GvrTool\bin\Debug\net6.0\GvrTool.deps.json
+C:\Users\heito\Desktop\Nova pasta\GvrTool\GvrTool\bin\Debug\net6.0\GvrTool.runtimeconfig.json
+C:\Users\heito\Desktop\Nova pasta\GvrTool\GvrTool\bin\Debug\net6.0\GvrTool.dll
+C:\Users\heito\Desktop\Nova pasta\GvrTool\GvrTool\bin\Debug\net6.0\GvrTool.pdb
+C:\Users\heito\Desktop\Nova pasta\GvrTool\GvrTool\obj\Debug\net6.0\GvrTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\heito\Desktop\Nova pasta\GvrTool\GvrTool\obj\Debug\net6.0\GvrTool.AssemblyInfoInputs.cache
+C:\Users\heito\Desktop\Nova pasta\GvrTool\GvrTool\obj\Debug\net6.0\GvrTool.AssemblyInfo.cs
+C:\Users\heito\Desktop\Nova pasta\GvrTool\GvrTool\obj\Debug\net6.0\GvrTool.csproj.CoreCompileInputs.cache
+C:\Users\heito\Desktop\Nova pasta\GvrTool\GvrTool\obj\Debug\net6.0\GvrTool.sourcelink.json
+C:\Users\heito\Desktop\Nova pasta\GvrTool\GvrTool\obj\Debug\net6.0\GvrTool.dll
+C:\Users\heito\Desktop\Nova pasta\GvrTool\GvrTool\obj\Debug\net6.0\refint\GvrTool.dll
+C:\Users\heito\Desktop\Nova pasta\GvrTool\GvrTool\obj\Debug\net6.0\GvrTool.pdb
+C:\Users\heito\Desktop\Nova pasta\GvrTool\GvrTool\obj\Debug\net6.0\GvrTool.genruntimeconfig.cache
+C:\Users\heito\Desktop\Nova pasta\GvrTool\GvrTool\obj\Debug\net6.0\ref\GvrTool.dll

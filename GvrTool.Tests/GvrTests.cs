@@ -84,6 +84,27 @@ namespace GvrTool.Tests
             }
         }
 
+        [TestMethod]
+        public void SaveIndexedTgaMarksPaletteAlphaInHeader()
+        {
+            string gvrFilePath = Path.Combine(TEST_FILES_DIRECTORY, "0000.gvr");
+            string tgaFilePath = Path.ChangeExtension(gvrFilePath, ".tga");
+            string jsonFilePath = Path.ChangeExtension(gvrFilePath, ".json");
+
+            GVR gvr = new GVR();
+            gvr.LoadFromGvrFile(gvrFilePath);
+            gvr.SaveToTgaFile(tgaFilePath);
+
+            byte[] tgaBytes = File.ReadAllBytes(tgaFilePath);
+
+            Assert.AreEqual(0x01, tgaBytes[1], "The exported indexed TGA must declare a color map.");
+            Assert.AreEqual(0x01, tgaBytes[2], "The exported indexed TGA must remain uncompressed color-mapped data.");
+            Assert.AreEqual(0x28, tgaBytes[17], "The TGA image descriptor must mark top-left origin and 8 alpha bits for palette transparency.");
+
+            File.Delete(tgaFilePath);
+            File.Delete(jsonFilePath);
+        }
+
         [DataTestMethod]
         [DataRow("0003.gvr")] // ImageData: Dxt1                      - Resident Evil: Code Veronica (GameCube)
         [DataRow("0006.gvr")] // ImageData: Dxt1                      - Resident Evil: Code Veronica (GameCube)

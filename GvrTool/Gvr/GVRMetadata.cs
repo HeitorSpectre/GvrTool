@@ -20,8 +20,9 @@ namespace GvrTool.Gvr
         public byte ExternalPaletteUnknown1 { get; set; }
         public ushort ExternalPaletteUnknown2 { get; set; }
         public ushort ExternalPaletteUnknown3 { get; set; }
+        public byte[] ReferencePalette { get; set; }
 
-        const uint METADATA_VERSION = 2;
+        const uint METADATA_VERSION = 3;
 
         public static void SaveMetadataToJson(GVRMetadata metadata, string jsonFilePath)
         {
